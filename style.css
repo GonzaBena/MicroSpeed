@@ -1,0 +1,72 @@
+input:not([type]), input[type=text]:not(.browser-default), input[type=password]:not(.browser-default), input[type=email]:not(.browser-default), input[type=url]:not(.browser-default), input[type=time]:not(.browser-default), input[type=date]:not(.browser-default), input[type=datetime]:not(.browser-default), input[type=datetime-local]:not(.browser-default), input[type=tel]:not(.browser-default), input[type=number]:not(.browser-default), input[type=search]:not(.browser-default), textarea.materialize-textarea{
+  color: white;
+}
+
+
+html {
+  background: black;
+}
+
+select option {
+  color:black;
+}
+
+body {  
+  justify-content: center;
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0%;
+}
+
+.page-footer .footer-copyright{
+  background: white;
+}
+
+nav {
+  background: white;
+}
+
+nav ul a {
+  color: black;
+}
+
+.btn:hover, .btn-large:hover, .btn-small:hover{
+  width: 510px;
+  margin-left: 20%;
+}
+.btn, .btn-large, .btn-small{
+  width: 510px;
+  margin-left: 20%;
+}
+
+header {
+  background: white;
+  color: black;
+  padding: 0 10px 0 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+.page-footer {
+  background: white;
+}
+
+footer {
+  background: white;
+  margin-top: 100px;
+  height: 250px;
+}
+
+#login {
+  margin: 35%;
+}
+
+select{
+  background: transparent;
+  color:white;
+  display: block;
+  width: 100%;
+}

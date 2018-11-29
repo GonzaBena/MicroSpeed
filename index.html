@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Microspeed</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/css/materialize.min.css">
+    <link rel="stylesheet" href="./style.css">
+    
+
+  </head>
+  <body>
+
+    <header>
+    <nav>
+      <div id="navbar" class="nav-wrapper">
+        <a><img height="50" src="banner.png" alt="banner"></a>
+      </div>
+    </nav>
+    </header>
+
+    <form method="post" action="nuevaPersona.php">
+      <label for="nombre">Nombre:</label>
+      <br>
+      <input name="nombre" required type="text" id="nombre" placeholder="Escribe tu nombre...">
+      <br><br>
+      <label for="apellidos">Apellidos:</label>
+      <br>
+      <input name="apellidos" required type="password" id="apellidos" placeholder="Escribe tu Password...">
+      <br><br>
+      <label for="email">email:</label>
+      <br>
+      <input name="email" required type="text" id="email" placeholder="Escribe tu email...">
+      <br><br>
+					<label for="tipo">Tipo de Cliente</label>
+			<select name="tipo" required name="tipo" id="tipo">
+				<option value="0">--Selecciona--</option>
+				<option value="1">Autonomo</option>
+				<option value="2">Empresa</option>
+				<option value="3">Logistica</option>
+			</select>
+      <br><br><button class="btn waves-effect waves-light" type="submit">Registrate Aqui</button>
+      <br><br><a class="waves-effect waves-light btn" href="login.php"><strong>Click Aqui</strong> para Iniciar Sesion</a>
+    </form>
+
+    <footer class="page-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="black-text">MicroSpeed</h5>
+              <p class="black-text text-lighten-4">Empresa encargada de deliveries por todo el pais tanto entregas como retiros</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="black-text">Redes Sociales</h5>
+              <ul>
+                <li><a class="black-text text-lighten-3" target="_blank" href="https://twitter.com/MicroSpeed">Twitter</a></li>
+                <li><a class="black-text text-lighten-3" target="_blank" href="https://www.facebook.com/MicroSpeed">Facebook</a></li>
+                <li><a class="black-text text-lighten-3" target="_blank" href="https://www.instagram.com/MicroSpeed">Instagram</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright">
+          <div class="container">
+          <h6 style="color:black;">© 2018 Copyright</h6>
+          <a class="black-text text-lighten-4 right" href="#logo">Arriba</a>
+          </div>
+        </div>
+      </footer>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-rc.2/js/materialize.min.js"></script>
+  </body>
+</html>
+
